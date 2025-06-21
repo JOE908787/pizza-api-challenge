@@ -3,4 +3,5 @@ __pycache__/
 .env
 Pipfile.lock
 migrations/
+instance/
 *.sqlite
