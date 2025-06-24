@@ -1,4 +1,4 @@
-from server.config import db
+from server import db
 from sqlalchemy.orm import validates
 
 class RestaurantPizza(db.Model):
