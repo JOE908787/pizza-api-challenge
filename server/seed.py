@@ -1,6 +1,5 @@
-
-from models import db, Restaurant, Pizza, RestaurantPizza
-from app import app
+from server.models import db, Restaurant, Pizza, RestaurantPizza
+from server.app import app
 
 with app.app_context():
     # Clear old data (optional for development)
